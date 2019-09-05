@@ -1,0 +1,43 @@
+{
+  "countries": [
+    {
+      "id": "a",
+      "name": "Hogwarts",
+      "population": 300,
+      "global_score": 5,
+      "neighbors": [
+        "Durmstrang"
+      ]
+    },
+    {
+      "id": "b",
+      "name": "Durmstrang",
+      "population": 1500,
+      "global_score": 3,
+      "neighbors": [
+        "Hogwarts"
+      ]
+    },
+    {
+      "id": "c",
+      "name": "Beauxbatons",
+      "population": 50,
+      "global_score": 2,
+      "neighbors": []
+    }
+  ],
+  "evolutions": [
+    {
+      "name": "Phoenix Feather",
+      "point_value": 100,
+      "e_type": "spread",
+      "boost": 0.2
+    },
+    {
+      "name": "Elder Wand",
+      "point_value": 500,
+      "e_type": "virulency",
+      "boost": 0.1
+    }
+  ]
+}
